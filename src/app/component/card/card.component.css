@@ -1,0 +1,57 @@
+.heading {
+    
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Add space below the heading */
+    flex-grow: 1;
+}
+.main {
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* flex-direction: column; */
+    background-color: rgb(245, 245, 244);
+   
+}
+.heading span {
+    font-family: Arial, sans-serif;
+    font-size: 24px; /* Adjust the size as needed */
+    font-weight: bold;
+}
+
+.card {
+    margin-top: 10px; /* Add space above the card */
+}
+.danger-btn .p-button {
+    background-color: #f00 !important; /* Set background color to red */
+    color: #fff !important; /* Set text color to white */
+    border-color: #f00 !important; /* Set border color to red */
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0; 
+}
+.all-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: flex-start;
+    margin: 10px 50px;
+
+}
+
+.card-container{
+    padding: 30px;
+    
+    
+}
+
+.card-contents{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+   
+
+}
+

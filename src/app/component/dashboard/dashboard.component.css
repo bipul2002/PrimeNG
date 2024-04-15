@@ -1,0 +1,231 @@
+.heading {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px; /* Add space below the heading */
+  flex-grow: 1;
+}
+.main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.heading span {
+  font-family: Arial, sans-serif;
+  font-size: 24px; /* Adjust the size as needed */
+  font-weight: bold;
+}
+.container {
+  width: 100%;
+
+  background-color: #bfbfbf;
+}
+
+.food-table {
+    max-height: 900px; /* Adjust the height as needed */
+    width: auto; /* Adjust the width as needed */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: hidden;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: fit-content;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f0f0f0;
+}   
+
+
+.wrapper-div{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(245, 245,  244);
+    
+}
+
+
+
+
+.company-info{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    background-color: rgb(245, 245, 244);
+}
+
+.info-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: calc(50% - 10px); /* Set width for each card */
+    margin-bottom: 20; /* Add space between cards */
+    padding: 20px;
+  }
+  
+ /* .p-card-body{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+
+ }  */
+
+
+ .bold-heading {
+    font-weight: bold;
+}
+
+.card-image{
+    max-width: 25%;
+    height: auto;
+}
+
+.fit-image {
+    max-width: 100%; /* Set maximum width to ensure image fits within the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* .custom-card{
+    display: flex;
+    flex-direction: row;
+} */
+
+:host ::ng-deep .custom4 .p-card .p-card-content { 
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+    width: 100%;
+}
+:host ::ng-deep .custom-card .p-card { 
+    box-shadow: 0 4px 4px 0 rgba(100, 100, 100, 0.5);
+}
+:host ::ng-deep .custom-table .p-card { 
+    box-shadow: 0 4px 4px 0 rgba(60, 60, 60, 0.5);
+}
+:host ::ng-deep .info-card .custom-card { 
+    width: 100%;
+}
+:host ::ng-deep .info-card .p-card { 
+    width: 100%;
+}
+
+.custom-card{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.p-card-header{
+    font-weight: bold;
+}
+
+:host ::ng-deep .custom-graph .p-card { 
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+    height: 500px;
+}
+
+:host ::ng-deep .custom-graph .p-card .p-card-body .p-card-content .actual-graph .p-element { 
+    display: flex;
+    width: 100%;
+}
+
+
+.wrapper-div1{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100vw;
+    background-color: rgb(245, 245,  244);
+    
+}
+
+.graph{
+    margin-right: 20px;
+    width: 60%;
+}
+
+.accordion{
+    max-width: 40%;
+}
+
+.user-analytic{
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    width: 100%;
+    background-color: #e7e7e7;
+    padding: 20px;
+    display: flex;
+    /* align-items: start; */
+   
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 14px;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+    text-align: right;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.footer-menu li:first-child {
+    margin-left: 0;
+}
+
+.bar-chart{
+    height: auto;
+    width: 1080px;
+}
+
+.wrapper-div2{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100vw;
+    background-color: rgb(245, 245,  244);
+    height: auto;
+    
+}
+
+

@@ -1,0 +1,28 @@
+    <div class="main">
+        <div class="container">
+        <div class="heading">
+            <span>Today's Special</span>
+        </div>
+       
+        </div>
+    
+        <div class="all-card">
+            <div class="card-container" *ngFor="let card of displayedCardData">
+                <div class="card-contents">
+                    <p-card [header]="card.header" [subheader]="card.subheader" [style]="{ width: '360px', height: '550px' }" styleClass="shadow-2">
+                    <ng-template pTemplate="header">
+                        <img alt="Card" [src]="card.imageUrl" height="300" >
+                    </ng-template>
+                    <p>
+                        {{ card.content }}
+                    </p>
+                    <div class="card-footer">
+                        <button pButton type="button" icon="pi pi-thumbs-up" style="width: 55px; height: 30px; margin-right: 20px;"></button>
+                        <button pButton type="button" icon="pi pi-thumbs-down" style="width: 55px; height: 30px; margin-right: 20px;"></button>
+                    </div>
+                    </p-card>
+                </div>
+            </div>
+        </div>
+    </div>
+    

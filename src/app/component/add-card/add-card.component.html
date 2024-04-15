@@ -1,0 +1,27 @@
+<p-dialog [(visible)]="displayDialog" [modal]="true" [responsive]="true" [style]="{ 'width': '50vw' }"
+    [styleClass]="'add-card-dialog'">
+    <div class="p-fluid p-formgrid p-grid">
+        <div class="p-field p-col">
+            <label for="header">Header</label>
+            <input id="header" type="text" pInputText [(ngModel)]="newCard.header" class="p-inputtext">
+        </div>
+        <div class="p-field p-col">
+            <label for="subheader">Subheader</label>
+            <input id="subheader" type="text" pInputText [(ngModel)]="newCard.subheader" class="p-inputtext">
+        </div>
+        <div class="p-field p-col">
+            <label for="imageUrl">Image URL</label>
+            <input id="imageUrl" type="text" pInputText [(ngModel)]="newCard.imageUrl" class="p-inputtext">
+        </div>
+        <div class="p-field p-col">
+            <label for="content">Content</label>
+            <textarea id="content" pInputTextarea [(ngModel)]="newCard.content" class="p-inputtextarea"></textarea>
+        </div>
+        <div class="p-field p-col">
+            <button pButton type="button" label="Add Card" icon="pi pi-plus" (click)="addCard()"
+                class="p-button-success"></button>
+            <button pButton type="button" label="Cancel" icon="pi pi-times" (click)="hideDialog()"
+                class="p-button-secondary"></button>
+        </div>
+    </div>
+</p-dialog>

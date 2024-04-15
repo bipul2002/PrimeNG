@@ -1,0 +1,12 @@
+<p-menubar [model]="menuItems" class="flex items-center justify-between">
+    <ng-template pTemplate="start">
+        <div class="flex items-center">
+            <img src="../../../../assets/logo.png" height="80" class="mr-2" alt="">
+            <img src="../../../../assets/Banner1.png" height="80" class="mr-2" alt="">
+        </div>
+    </ng-template>
+    <ng-template pTemplate="end" class="flex items-center">
+        <input type="text" pInputText placeholder="search" class="w-full mr-2">
+        <button pButton label="search" icon="pi pi-search" style="margin-left: 12px;"></button>
+    </ng-template>
+</p-menubar>
